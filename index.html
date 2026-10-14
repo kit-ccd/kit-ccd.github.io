@@ -2,18 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Civilian Cyber Defense | Specialized Advisory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civilian Cyber Defense | Federal Compliance & Advisory</title>
     <style>
-        body { background-color: #1a1a1a; color: #e0e0e0; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; }
-        .container { max-width: 600px; padding: 20px; }
-        h1 { color: #32cd32; margin-bottom: 10px; }
-        p { color: #aaa; line-height: 1.5; }
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 40px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #222;
+            padding: 40px;
+            border-radius: 8px;
+            border: 1px solid #32cd32;
+        }
+        h1, h2, h3 {
+            color: #32cd32;
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 2.2rem;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+        .intro-section {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 25px;
+        }
+        .intro-section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        .intro-section p {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+        .service-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .service-card {
+            flex: 1;
+            min-width: 300px;
+            background-color: #1a1a1a;
+            border: 1px solid #444;
+            border-radius: 6px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: border-color 0.2s ease;
+        }
+        .service-card:hover {
+            border-color: #32cd32;
+        }
+        .btn {
+            background-color: #32cd32;
+            color: #1a1a1a;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #2ab82ab;
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>Civilian Cyber Defense</h1>
-        <p>Our website is currently undergoing scheduled updates to reflect our expanded focus on federal compliance advisory and enterprise cloud security. Please check back soon.</p>
+        
+        <div class="intro-section">
+            <h2>Specialized Cybersecurity Advisory & Compliance Consulting</h2>
+            <p>Securing critical assets shouldn't stop at the corporate boundary. Civilian Cyber Defense delivers specialized federal compliance advisory for defense contractors alongside elite, bespoke digital security and privacy consulting for private clients who demand professional-grade protection across their entire digital footprint.</p>
+        </div>
+
+        <div class="service-container">
+            
+            <!-- Card 1: Federal & Contractor Advisory -->
+            <div class="service-card" style="border: 2px solid #32cd32;">
+                <div>
+                    <h3>Federal Compliance Advisory</h3>
+                    <p>Specialized cybersecurity advisory for small-to-midsize defense contractors and government suppliers. We help teams navigate NIST 800-53, DISA STIGs, and cloud posture baselines to accelerate authorization and secure technical boundaries.</p>
+                </div>
+                <a href="federal-compliance.html" class="btn">Explore Federal Advisory</a>
+            </div>
+
+            <!-- Card 2: Private Client & Executive Security -->
+            <div class="service-card">
+                <div>
+                    <h3>Private Client & Executive Security</h3>
+                    <p>Professional-grade digital risk management for high-net-worth individuals and families. Comprehensive digital footprint reduction, secure home environment architecture, estate data protection, and targeted phishing defense.</p>
+                </div>
+                <a href="private-client.html" class="btn">Explore Private Advisory</a>
+            </div>
+
+        </div>
     </div>
+
 </body>
 </html>
