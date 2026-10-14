@@ -2,18 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Civilian Cyber Defense | Specialized Advisory</title>
+    <title>Civilian Cyber Defense | Specialized Security Advisory</title>
     <style>
-        body { background-color: #1a1a1a; color: #e0e0e0; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; }
-        .container { max-width: 600px; padding: 20px; }
-        h1 { color: #32cd32; margin-bottom: 10px; }
-        p { color: #aaa; line-height: 1.5; }
+        body { background-color: #1a1a1a; color: #e0e0e0; font-family: sans-serif; margin: 0; padding: 40px; }
+        header { text-align: center; margin-bottom: 20px; }
+        .trust-banner { text-align: center; margin: 20px 0 40px 0; color: #71db77; font-weight: bold; border-top: 1px solid #333; border-bottom: 1px solid #333; padding: 12px; }
+        .intro-section { max-width: 800px; margin: 0 auto 40px auto; text-align: center; line-height: 1.6; }
+        .intro-section h2 { color: #32cd32; margin-bottom: 15px; }
+        .service-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; max-width: 1000px; margin: 0 auto; }
+        .service-card { border: 1px solid #32cd32; padding: 30px; border-radius: 8px; text-align: left; display: flex; flex-direction: column; justify-content: space-between; background-color: #1a1a1a; }
+        .service-card p { flex-grow: 1; line-height: 1.5; color: #ccc; }
+        h3 { color: #32cd32; margin-top: 0; }
+        .btn { background-color: #32cd32; color: #1a1a1a; padding: 12px 20px; border: none; border-radius: 4px; display: inline-block; margin-top: 20px; text-decoration: none; font-weight: bold; text-align: center; }
+        .logo-image {
+            display: block;
+            margin: 20px auto; 
+            max-width: 400px; 
+            height: auto;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Civilian Cyber Defense</h1>
-        <p>Our website is currently undergoing scheduled updates to reflect our expanded focus on federal compliance advisory and enterprise cloud security. Please check back soon.</p>
+
+    <header>
+        <img src="logo.svg" alt="Civilian Cyber Defense Logo" class="logo-image">
+    </header>
+
+    <div class="trust-banner">
+        <span>U.S. Army Veteran-Owned</span> | <span>CISSP Certified</span> | <span>20 Years Experience</span>
     </div>
+
+    <div class="intro-section">
+        <h2>Specialized Cybersecurity Advisory & Compliance Consulting</h2>
+        <p>Civilian Cyber Defense delivers expert guidance scaling from rigorous federal compliance baselines—including NIST 800-53, DISA STIGs, and cloud architecture for defense contractors—to bespoke digital privacy and security advisory for private clients.</p>
+    </div>
+
+    <div class="service-container">
+        
+        <!-- Card 1: Federal & Contractor Advisory (Featured) -->
+        <div class="service-card" style="border: 2px solid #71db77;">
+            <div>
+                <h3>Federal Compliance Advisory</h3>
+                <p>Specialized cybersecurity advisory for small-to-midsize defense contractors and government suppliers. We help teams navigate NIST 800-53, DISA STIGs, and cloud posture baselines to accelerate authorization and secure technical boundaries.</p>
+            </div>
+            <a href="federal-compliance.html" class="btn">Explore Federal Advisory</a>
+        </div>
+
+        <!-- Card 2: Private Client & Executive Security -->
+        <div class="service-card">
+            <div>
+                <h3>Private Client & Executive Security</h3>
+                <p>Professional-grade digital risk management for high-net-worth individuals and families. Comprehensive digital footprint reduction, secure home environment architecture, estate data protection, and targeted phishing defense.</p>
+            </div>
+            <a href="private-client.html" class="btn">Explore Private Advisory</a>
+        </div>
+
+    </div>
+
 </body>
 </html>
